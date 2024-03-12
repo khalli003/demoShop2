@@ -3,6 +3,7 @@ package com.example.demoshop.application.category;
 
 import com.example.demoshop.domain.entity.Category;
 import com.example.demoshop.infrasrtucture.repositoty.CategoryRepository;
+import com.example.demoshop.presentation.exceptions.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
